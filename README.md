@@ -29,23 +29,26 @@ This project implements the machine test requirements:
 ## Project Structure
 
 ```text
-app/
-- main.py
-- config.py
-- database.py
-- models.py
-- schemas.py
-- crud.py
-- routes/
-  - __init__.py
-  - category.py
-  - product.py
-tests/
-- test_api_endpoints.py
-requirements.txt
-requirements-dev.txt
-.env.example
-README.md
+.
+|-- app/
+|   |-- __init__.py
+|   |-- main.py
+|   |-- config.py
+|   |-- database.py
+|   |-- models.py
+|   |-- schemas.py
+|   |-- crud.py
+|   `-- routes/
+|       |-- __init__.py
+|       |-- category.py
+|       `-- product.py
+|-- tests/
+|   `-- test_api_endpoints.py
+|-- requirements.txt
+|-- requirements-dev.txt
+|-- .env.example
+|-- .gitignore
+`-- README.md
 ```
 
 ## API Endpoints
